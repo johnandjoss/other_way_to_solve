@@ -6,9 +6,9 @@ sentence.each() do |chunk|
 if chunk == word
 x.push(chunk)
 else
-puts chunk
+false
 end
 end
-x
+x.length
 end
 end
